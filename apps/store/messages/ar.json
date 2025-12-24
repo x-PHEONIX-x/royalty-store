@@ -1,0 +1,200 @@
+{
+	"navbar": {
+		"home": "الرئيسية",
+		"homeTitle": "الصفحة الرئيسية",
+		"cart": "سلة المشتريات",
+		"cartTitle": "سلة التسوق",
+		"products": "كل المنتجات",
+		"productsTitle": "كل المنتجات",
+		"signIn": "تسجيل الدخول",
+		"signInMobile": "تسجيل الدخول",
+		"searchAria": "بحث",
+		"openMenu": "فتح القائمة",
+		"closeMenu": "إغلاق القائمة",
+		"searchPlaceholder": "ابحث عن المنتجات...",
+		"searchClearOrClose": "مسح أو إغلاق البحث",
+		"searchSubmit": "تنفيذ البحث"
+	},
+	"slider": {
+		"collection": "مجموعة منتجات مخصصة للرجل العصري الأنيق، بروحٍ تستلهمُ الأصالة وتعتني بالكمال. كلُّ تفصيلةٍ فيها تُجسّد وتعبر عن الدقة والرقي، فالأناقة الحقيقية لا تُرتدى فقط، بل تُفرَض حضورًا وهيبة.",
+		"shopNow": "ابدأ التسوق الآن"
+	},
+	"homePage": {
+		"productOnSale": "منتجات بعروض خاصة : ",
+		"dontMissOut": "لا تفوت الفرصة!",
+		"viewAllProducts": "عرض جميع المنتجات"
+	},
+	"categories": {
+		"all": "الكل",
+		"suits": "البدلات",
+		"shirts": "القمصان",
+		"shoes": "الأحذية",
+		"jackets": "السترات",
+		"accessories": "الإكسسوارات",
+		"pants": "السراويل",
+		"gloves": "القفازات"
+	},
+	"filter": {
+		"sortBy": "ترتيب حسب :",
+		"default": "اختر الترتيب",
+		"newest": "الأحدث",
+		"oldest": "الأقدم",
+		"asc": "السعر: من الأصغر إلى الأكبر",
+		"desc": "السعر: من الأكبر إلى الأصغر"
+	},
+	"productCard": {
+		"onSale": "عرض خاص!",
+		"onlyLeft": "متبقي `{quantity}` فقط",
+		"outOfStock": "غير متوفر",
+		"availableOn": "سيتوفر بتاريخ:",
+		"willBeAvailableSoon": "سيتوفر قريبًا",
+		"size": "المقاس",
+		"color": "اللون",
+		"addToCart": "أضف إلى السلة",
+		"addedToCartToast": "تمت إضافة المنتج إلى السلة"
+	},
+	"productsPage": {
+		"showingProducts": "عرض المنتجات {from}-{to} من أصل {total}"
+	},
+	"productPage": {
+		"size": "المقاس",
+		"color": "اللون",
+		"quantity": "الكمية",
+		"addToCart": "أضف إلى السلة",
+		"buyThisItem": "اشترِ هذا المنتج",
+		"addedToCartToast": "تمت إضافة المنتج إلى السلة"
+	},
+	"cart": {
+		"title": "سلة التسوق الخاصة بك",
+		"steps": {
+			"1": "سلة التسوق",
+			"2": "تفاصيل الشحن",
+			"3": "الدفع وتأكيد الطلب"
+		},
+		"cartItems": "عناصر السلة",
+		"productsUnits": "المنتجات: {products} | الوحدات: {units}",
+		"emptyTitle": "سلتك فارغة، اختر المنتجات التي ترغب في شرائها!",
+		"viewAllProducts": "عرض جميع المنتجات",
+		"quantity": "الكمية",
+		"size": "المقاس",
+		"color": "اللون",
+		"price": "السعر",
+		"shippingDetails": "تفاصيل الشحن",
+		"checkoutPayment": "الدفع وتأكيد الطلب",
+		"completePrevious": "يرجى إكمال الخطوات السابقة للمتابعة!",
+		"cartDetails": "تفاصيل السلة",
+		"subtotal": "الإجمالي الفرعي",
+		"discount": "الخصم",
+		"shippingFee": "رسوم الشحن",
+		"shippingFeeMissing": "يرجى ادخال تفاصيل الشحن!",
+		"total": "السعر الإجمالي",
+		"continue": "متابعة",
+		"emptyCartError": "سلتك فارغة، يرجى إضافة منتجات للمتابعة"
+	},
+	"shipping": {
+		"name": "الاسم",
+		"namePlaceholder": "أدخل الاسم الكامل",
+		"nameRequired": "ادخال الاسم اجباري",
+		"phone": "رقم الهاتف",
+		"phonePlaceholder": "مثال: 99 99 99 0699",
+		"phoneRequired": "ادخال رقم الهاتف اجباري",
+		"phoneInvalid": "صيغة رقم الهاتف الجزائري غير صحيحة",
+		"wilaya": "الولاية",
+		"wilayaPlaceholder": "-- اختر الولاية --",
+		"wilayaRequired": "اختيار الولاية اجباري",
+		"deliveryMethod": "طريقة التوصيل",
+		"deliveryCompany": "مكتب شركة التوصيل",
+		"deliveryHome": "التوصيل إلى المنزل",
+		"deliveryRequired": "يرجى اختيار طريقة التوصيل",
+		"city": "المدينة",
+		"cityPlaceholder": "-- اختر المدينة --",
+		"cityRequired": "اختيار المدينة اجباري للتوصيل إلى المنزل",
+		"address": "العنوان",
+		"addressPlaceholder": "أدخل عنوان المنزل",
+		"addressRequired": "ادخال العنوان اجباري للتوصيل إلى المنزل",
+		"continue": "متابعة",
+		"emptyCartError": "سلتك فارغة، أضف منتجات للمتابعة"
+	},
+	"checkout": {
+		"paymentMethod": "طريقة الدفع",
+		"cod": "الدفع عند الاستلام",
+		"card": "الدفع بالبطاقة",
+		"orderSummary": "ملخص الطلب",
+		"name": "الاسم",
+		"phone": "رقم الهاتف",
+		"address": "العنوان",
+		"deliveryMethod": "طريقة التوصيل",
+		"homeDelivery": "توصيل إلى المنزل",
+		"companyDelivery": "مكتب شركة التوصيل",
+		"items": "المنتجات",
+		"totalPrice": "السعر الإجمالي",
+		"estimatedDeliveryTime": "مدة التوصيل المتوقعة: من 1 إلى 3 أيام إلى",
+		"confirmOrder": "تأكيد الطلب",
+		"cardPayment": "الدفع بالبطاقة",
+		"confirmPayment": "تأكيد الدفع",
+		"orderPlaced": "تم تسجيل طلبك بنجاح!",
+		"cartEmpty": "سلة التسوق فارغة، أضف منتجات للمتابعة"
+	},
+	"payment": {
+		"cardHolderName": "اسم صاحب البطاقة",
+		"cardHolderPlaceholder": "الاسم الكامل",
+		"cardNumber": "رقم البطاقة",
+		"cardNumberPlaceholder": "مثال: 6789 1234 5678 1234",
+		"expMonth": "شهر الانتهاء",
+		"expYear": "سنة الانتهاء",
+		"monthPlaceholder": "الشهر",
+		"yearPlaceholder": "السنة",
+		"cvv": "رمز CVV",
+		"cvvPlaceholder": "مثال: 123",
+		"cardNameRequired": "ادخال اسم صاحب البطاقة إجباري!",
+		"cardNumberRequired": "ادخال رقم البطاقة إجباري!",
+		"cardNumberInvalid": "رقم البطاقة غير صالح",
+		"expMonthRequired": "اختيار الشهر إجباري!",
+		"expMonthInvalid": "شهر غير صالح",
+		"expYearRequired": "اختيار السنة إجباري!",
+		"expYearInvalid": "سنة غير صالحة",
+		"cvvRequired": "رمز CVV إجباري!",
+		"cvvMax": "يجب أن يكون CVV من 3 أرقام!"
+	},
+	"footer": {
+		"tagline": "جاهز للارتقاء بإطلالتك إلى المستوى التالي؟",
+		"startShopping": "ابدأ التسوق",
+
+		"contactUs": "تواصل معنا",
+		"tel": "هاتف: 99 99 99 0699",
+		"email": "البريد الإلكتروني: royaltystore@sample.com",
+		"location": "الموقع: الجزائر العاصمة - الجزائر",
+		"service": "نحن دائمًا في خدمتك",
+
+		"links": "روابط",
+		"homepage": "الصفحة الرئيسية",
+		"contact": "اتصل بنا",
+		"terms": "شروط الخدمة",
+		"privacy": "سياسة الخصوصية",
+
+		"products": "المنتجات",
+		"allProducts": "كل المنتجات",
+		"newArrivals": "الوافدون الجدد",
+		"bestSellers": "الأكثر مبيعًا",
+		"sale": "تخفيضات",
+
+		"company": "الشركة",
+		"aboutUs": "من نحن",
+		"blog": "المدونة",
+		"affiliate": "برنامج الشركاء",
+
+		"joinCommunityTitle": "انضم إلى مجتمع رويالتي",
+		"joinCommunityTextLine1": "تابعنا على مواقع التواصل للحصول على أحدث الإصدارات والعروض الحصرية،",
+		"joinCommunityTextLine2": "وإطلالات ملهمة من عملائنا.",
+		"joinCommunityTextLine3": "لنصنع أسلوبك المميز معًا!",
+		"availableOnMobile": "نحن متواجدون على:",
+
+		"rightsReserved": "جميع الحقوق محفوظة",
+		"privacyShort": "سياسة الخصوصية",
+		"termsShort": "شروط الخدمة",
+		"cookiesShort": "سياسة الكوكيز"
+	},
+	"languageSwitcher": {
+		"selectLanguage": "اللغة"
+	}
+}

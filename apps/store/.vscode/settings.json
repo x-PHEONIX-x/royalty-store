@@ -1,0 +1,21 @@
+{
+	"editor.quickSuggestions": {
+		"strings": "on"
+	},
+	"tailwindCSS.lint.cssConflict": "ignore",
+	// "tailwindCSS.validate": false,
+	"tailwindCSS.lint.recommendedVariantOrder": "ignore",
+	"tailwindCSS.colorDecorators": true,
+	"editor.colorDecorators": true,
+	"tailwindCSS.emmetCompletions": true,
+	"tailwindCSS.classAttributes": ["class", "className", "ngClass"],
+	"tailwindCSS.experimental.classRegex": [
+		["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+		["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+	],
+	"tailwindCSS.includeLanguages": {
+		"typescript": "javascript",
+		"typescriptreact": "javascript",
+		"html": "html"
+	}
+}

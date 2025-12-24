@@ -1,0 +1,15 @@
+export type ProductType = {
+	id: string | number;
+	name: string;
+	shortDescription: string;
+	description: string;
+	quantity?: number;
+	availableOn?: string;
+	price: number;
+	sale?: number;
+	sizes: string[];
+	colors: string[];
+	images: Record<string, string | undefined>;
+};
+
+export type ProductsType = ProductType[];
