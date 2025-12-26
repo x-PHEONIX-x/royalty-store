@@ -61,7 +61,7 @@ export default function LanguageSwitcher() {
 					disabled={isPending}
 				>
 					<span className="text-xs uppercase tracking-wide font-extrabold">
-						{current.code}
+						{current!.code}
 					</span>
 				</Button>
 			</DropdownMenuTrigger>

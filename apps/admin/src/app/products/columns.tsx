@@ -58,7 +58,10 @@ export const columns: ColumnDef<Product>[] = [
 			return (
 				<div className="w-9 h-9 relative">
 					<Image
-						src={product.images[product.colors[0]]}
+						src={
+							product.images[product.colors[0]!] ||
+							"https://placehold.co/100x100/png"
+						}
 						alt={product.name}
 						fill
 						className="rounded-full object-cover"

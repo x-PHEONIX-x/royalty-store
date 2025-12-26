@@ -32,7 +32,7 @@ const useCartStore = create<CartStore>()(
 					);
 					if (existingIndex !== -1) {
 						const updatedCart = [...state.cart];
-						updatedCart[existingIndex].quantity +=
+						updatedCart[existingIndex]!.quantity +=
 							product.quantity || 1;
 						return { cart: updatedCart };
 					}

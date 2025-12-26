@@ -59,7 +59,7 @@ const ShippingForm = ({
 		wilaya && (prices as WilayaPrices)[wilaya]
 			? (prices as WilayaPrices)[wilaya]
 			: 0;
-	const totalFee = deliveryType === "home" ? baseFee + 10 : baseFee;
+	const totalFee = deliveryType === "home" ? baseFee! + 10 : baseFee;
 	const onSubmit = (data: ShippingFormValues) => {
 		setShippingForm(data);
 		if (!cartEmpty) {
@@ -81,7 +81,7 @@ const ShippingForm = ({
 				city,
 				deliveryType,
 				address,
-				totalFee,
+				totalFee: totalFee!,
 			});
 		}
 	}, [wilaya, city, deliveryType, address, onShippingChange, totalFee]);
