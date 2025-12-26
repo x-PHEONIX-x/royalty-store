@@ -6,7 +6,7 @@ const envSchema = z.object({
 	NODE_ENV: z
 		.enum(["development", "test", "production"])
 		.default("development"),
-	PORT: z.string().default("4000"),
+	PORT: z.string().default("5500"),
 	MONGODB_URI: z.string(),
 });
 

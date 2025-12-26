@@ -22,9 +22,13 @@ function ProductCard({ product }: ProductCardProps) {
 	const quantity = product.quantity ?? 99;
 	const Router = useRouter();
 	const [productTypes, setProductTypes] = useState({
-		color: product.colors[0],
-		size: product.sizes[0],
+		color: product.colors[0] as string,
+		size: product.sizes[0] as string,
 	});
+	const mainImageSrc =
+		productTypes.color in product.images
+			? product.images[productTypes.color as keyof typeof product.images]
+			: "https://placehold.co/400x400/png";
 	const handleProductTypeChange = (
 		type: keyof ProductTypesState,
 		value: string
@@ -97,10 +101,7 @@ function ProductCard({ product }: ProductCardProps) {
 			>
 				<div className="relative w-full aspect-square bg-card rounded-t-lg overflow-hidden">
 					<Image
-						src={
-							product.images[productTypes.color] ??
-							"https://placehold.co/400x400/png"
-						}
+						src={mainImageSrc ?? "https://placehold.co/400x400/png"}
 						alt={product.name}
 						fill
 						sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, (max-width: 1280px) 25vw, 20vw"

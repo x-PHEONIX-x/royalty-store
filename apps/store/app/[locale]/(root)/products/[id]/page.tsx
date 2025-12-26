@@ -29,18 +29,23 @@ type SearchParams = {
 	};
 };
 
-export const generateMetadata = async ({ searchParams }: SearchParams) => {
-	const color = (await searchParams?.color) || product.colors[0];
+export const generateMetadata = ({ searchParams }: SearchParams) => {
+	const color = searchParams?.color || product.colors[0];
 	return {
 		title: `${product.name} - ${color}`,
 		description: product.description,
 	};
 };
 
-const ProductPage = async ({ searchParams }: SearchParams) => {
-	const selectedColor = (await searchParams?.color) ?? product.colors[0];
-	const selectedSize = (await searchParams?.size) ?? product.sizes[0];
-
+const ProductPage = ({ searchParams }: SearchParams) => {
+	const selectedColor: string =
+		searchParams?.color ?? (product.colors[0] as string);
+	const selectedSize: string =
+		searchParams?.size ?? (product.sizes[0] as string);
+	const mainImageSrc =
+		selectedColor && product.images[selectedColor]
+			? product.images[selectedColor as keyof typeof product.images]
+			: "https://placehold.co/800x800/png";
 	return (
 		<div className="container mx-auto flex justify-center flex-col gap-4 lg:flex-row md:gap-12 mt-4 md:mt-12">
 			{/* ---------- IMAGE SECTION ---------- */}
@@ -48,10 +53,7 @@ const ProductPage = async ({ searchParams }: SearchParams) => {
 				{/* Main Image */}
 				<Image
 					key={selectedColor}
-					src={
-						product.images[selectedColor] ??
-						"https://placehold.co/800x800/png"
-					}
+					src={mainImageSrc ?? "https://placehold.co/800x800/png"}
 					alt={product.name}
 					fill
 					className="object-cover aspect-square rounded-sm sm:rounded-3xl transition-opacity duration-500 ease-in-out opacity-100"

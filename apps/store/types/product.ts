@@ -9,7 +9,7 @@ export type ProductType = {
 	sale?: number;
 	sizes: string[];
 	colors: string[];
-	images: Record<string, string | undefined>;
+	images: Record<string, string>;
 };
 
 export type ProductsType = ProductType[];
